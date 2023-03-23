@@ -80,7 +80,7 @@ body {
   justify-content: center;
   margin-top: 2rem;
 }
-.Card {
+.p {
   border: 2px solid gray;
   display: flex;
   flex-direction: column;
