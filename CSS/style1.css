@@ -54,7 +54,7 @@ body {
 }
 .Card:hover {
   --b: 0.1em;
-  --c: #000000;
+  --c: #10959c;
 
   color: rgba(0, 0, 0, 0);
   padding-block: var(--b);
