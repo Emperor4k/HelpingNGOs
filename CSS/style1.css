@@ -1,16 +1,31 @@
 body {
   font-family: serif;
 }
-
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: center;
+  z-index: 9;
+  width: 100%;
+  height: 50px;
+  background-color: #23b5bd;
+}
+.container p {
+  margin-top: 70px;
+  text-align: center;
+}
 .cards {
+  margin-top: 100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .Card {
+  margin-bottom: 30px;
   width: 300px;
-
+  border: 2px solid #769698a3;
   border-radius: 20px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -19,6 +34,7 @@ body {
 .Card img {
   display: block;
   margin: 0 auto;
+  margin-top: 10px;
 }
 
 .details {
@@ -81,15 +97,15 @@ body {
   margin-top: 2rem;
 }
 .p {
+  width: 300px;
   border: 2px solid gray;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 10px;
-  margin: 0 auto;
-  height: 40vh;
-  width: 30vw;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
 .font {
   font-size: 3rem;
+}
+.a {
+  align-items: center;
 }
