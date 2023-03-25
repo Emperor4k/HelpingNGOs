@@ -1,4 +1,3 @@
-alert('h');
 
 const modal = document.querySelector(".modal1");
 const overlay = document.querySelector(".overlay");
@@ -22,5 +21,3 @@ btnsOpenModal.addEventListener("click", openModal);
 btnCloseModal.addEventListener("click", closeModal);
 btnCloseModal2.addEventListener("click", closeModal);
 overlay.addEventListener("click", closeModal);
-
-alert('l');
