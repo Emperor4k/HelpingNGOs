@@ -11,6 +11,10 @@ body{
 }
   /* Navigation bar styles */
   #navBody {
+      position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 9;
     color: #000;
     background: linear-gradient(to left, #fff, rgb(10, 144, 246));
     border-bottom: 1px solid #dee2e6;
