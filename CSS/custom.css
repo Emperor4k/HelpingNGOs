@@ -8,6 +8,7 @@ body{
     background: rgb(17,107,143);
     color: white;
     width: 100%;
+    font-family: serif;
 }
   /* Navigation bar styles */
   #navBody {
@@ -49,9 +50,9 @@ body{
   .navbar-nav .nav-link:focus {
     color: rgb(27, 26, 26);
   }
-.btn-danger {
+  .btn-danger {
   width: 10rem;
-}
+  }
   /* Header styles */
 
   header {
