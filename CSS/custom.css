@@ -11,10 +11,9 @@ body{
 }
   /* Navigation bar styles */
   #navBody {
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
-    text-align: center;
     z-index: 9;
     width: 100%;
     /* height: 85px; */
@@ -99,17 +98,14 @@ body{
     height: 800px;
     object-fit: cover;
   }
-
-.col-md-6 img {
-  border-radius: 10%;
-}
-/* down  READ MORE FUNCTIONALITY*/
-.morni {
-  display: none;
-}
-/* up  READ MORE FUNCTIONALITY*/
-
-  
+  .col-md-6 img{
+    border-radius: 10%;
+  }
+  /* down Redad more functionality  */
+  .morni {
+    display: none;
+  }
+  /* up read more functionality  */
   .modal-header {
     background-color: #276ae6;
     color: white;
@@ -264,7 +260,7 @@ ul,li{
  
 .services h1{
      color:white;
-     font-weight: bold;
+     font-weight: 800;
      margin-top: 50px;
      margin-bottom: 28px;
      text-align: center;
@@ -274,7 +270,7 @@ ul,li{
  
  h2{
      color:white;
-     font-weight: bold;
+     font-weight: 600;
      margin-top: 50px;
      margin-bottom: 28px;
      text-align: center;
@@ -304,10 +300,10 @@ ul,li{
      flex-direction:row;
      justify-content: center;
      align-items: center;
-     height:100%;
+     height:auto;
      column-gap: 28px;
      margin: 28px 28px;
-     min-width: 576px;
+     /* min-width: 576px; */
  
  }
  
@@ -319,7 +315,7 @@ ul,li{
      align-items: center;
      height:100%;
      background-color: rgb(17,107,143);
-     border-radius:2%;
+     border-radius: 10px;
      
  }
  
@@ -333,11 +329,12 @@ ul,li{
      border: 2px solid #777;
      display:flex;
      flex-direction:column;
+     column-gap: 5px;
      justify-content: center;
      align-items: center;
      height:100%;
      background-color: rgb(17,107,143);
-     border-radius: 2%;
+     border-radius: 10px;
  }
  
  .helping{
@@ -348,7 +345,7 @@ ul,li{
      align-items: center;
      height:100%;
      background-color: rgb(17,107,143);
-     border-radius: 2%;
+     border-radius: 10px;
  }
  
  .services i{   
@@ -577,7 +574,7 @@ ul,li{
 
    /* codes for making responsive */
 
-@media (max-width: 660px) {
+@media (max-width: 940px) {
   #navBody {
     background: none;
     background: linear-gradient(to left, #fff, rgb(10, 144, 246));
@@ -588,15 +585,75 @@ ul,li{
     column-gap: 5px;
     flex-direction: row-reverse;
   }
+
+  /* css footer  */
+  
   .footer_info{
     display: flex;
     flex-direction: column;
 
   }
-  .services {
+  .footer_About{
     display: flex;
-    margin: 10px;
     flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 90vw;
+  }
+
+  .footer_Link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+   width: max-content;
+
+  }
+  .links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90vw;
+  }
+  .footer_Contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+   width: 90vw;
+
+  }
+  /* services css */
+
+  #section-2{
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+    margin: 5px;
+  }
+  .services{
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+  }
+  .planning{
+    display: flex;
+    height: auto;
+    width: 90vw;
+    margin: 20px;
+  }
+  .support{
+    display: flex;
+    height: auto;
+    width: 90vw;
+    margin: 20px;
+  }
+  .helping{
+    display: flex;
+    height: auto;
+    width: 90vw;
+    margin: 20px;
   }
   .card{
       width: 85%;
@@ -606,4 +663,21 @@ ul,li{
     flex-direction: column;
     height: auto;
   }
+
+  .btn-danger{
+    margin-top: 40px;
+    margin-right: 155px;
+  }
+
+  /* About css  */
+  .row1{
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+  }
+  .row2{
+    display: flex;
+    flex-direction: column;
+  }
+  
 }
