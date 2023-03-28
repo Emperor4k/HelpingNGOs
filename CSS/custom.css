@@ -99,6 +99,16 @@ body{
     height: 800px;
     object-fit: cover;
   }
+
+.col-md-6 img {
+  border-radius: 10%;
+}
+/* down  READ MORE FUNCTIONALITY*/
+.morni {
+  display: none;
+}
+/* up  READ MORE FUNCTIONALITY*/
+
   
   .modal-header {
     background-color: #276ae6;
