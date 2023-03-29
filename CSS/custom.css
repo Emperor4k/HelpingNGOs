@@ -579,6 +579,63 @@ button:hover {
 
 /* Css for Department section Ends here  */
 
+/* Css for how to use  section */
+.main-h1 {
+  color: white;
+  font-weight: 400;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 25px;
+}
+
+.main-h h2{
+  color: white;
+  font-weight: 800;
+  font-size:20px ; 
+  margin: auto 10px  10px;
+}
+
+.main-h{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.step1,.step2,.step3,.step4,.step5,.step6,.step7,.step8,.step9,.step10{
+  display: flex;
+  border: 3px solid skyblue;
+  height: 80px;
+  width: 35vw;
+  border-radius: 50px;
+  box-shadow: 8px 8px  rgb(90, 100, 110);
+ padding: 12px;
+  margin-top: 20px;
+  margin-left: 10px;  
+}
+.steps{
+  display: flex;
+  flex-direction:row;
+  column-gap: 20px;
+  flex-wrap: wrap;
+  border-radius: 50px;
+}
+.main-h p{
+  color: white;
+  font-weight: 400;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.main-h i{
+  font-size:30px;
+  margin: 15px;
+  color: white;
+  margin-right: -2px;
+}
+
 /* codes for making responsive */
 
 @media (max-width: 940px) {
@@ -683,4 +740,40 @@ button:hover {
     display: flex;
     flex-direction: column;
   }
+
+  /* how to use section  */
+  .main-h{
+    display: flex;
+    flex-direction: column;
+}
+.step1,.step2,.step3,.step4,.step5,.step6,.step7,.step8,.step9,.step10{
+    display: flex;
+    border: 3px solid skyblue;
+    border-radius: 50px;
+    width: 95vw;
+    box-shadow: 8px 8px rgb(90, 100, 110);
+    padding-left: 5px;
+    margin-top: 20px;
+}
+
+.main-h h2{
+    color: white;
+    font-weight: 400;
+    font-size: 17px ; 
+    margin: auto ;
+}
+.main-h p{
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    font-size: 15px ; 
+    margin-top: 15px;
+}
+
+.main-h i{
+    font-size:25px;
+    margin: 15px;
+    /* margin-top: 25px; */
+    color: white;
+}
 }
