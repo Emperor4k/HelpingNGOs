@@ -108,7 +108,7 @@ header {
 }
 .abt {
   margin: 0 35%;
-  width: 6rem;
+  width: 7rem;
 }
 /* down Redad more functionality  */
 .morni {
@@ -289,8 +289,8 @@ h2 {
 }
 
 .services button {
-  height: 40px;
-  width: 100px;
+  /* height: 40px; */
+  width: 7rem;
   padding: 8px;
   background-color: rgb(17, 107, 143);
   color: white;
